@@ -13,21 +13,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Account.MainActivity">
+        <activity android:name=".Account.SettingsActivity">
+        </activity>
+        <activity android:name=".Account.SignupActivity" />
+        <activity android:name=".Account.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Account.SignupActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".Account.LoginActivity" />
         <activity android:name=".Account.ResetPasswordActivity" />
         <activity
             android:name=".Main.DrawerActivity"
@@ -36,7 +31,7 @@
         <activity android:name=".Main.BrandActivity" />
         <activity android:name=".Main.ModelActivity" />
         <activity android:name=".Main.BasicActivity" />
-        <activity android:name=".Main.SpecificActivity"></activity>
+        <activity android:name=".Main.SpecificActivity" />
     </application>
 
 </manifest>

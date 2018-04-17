@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:fitsSystemWindows="true"
-    tools:context="com.venkonenterprise.finper.Nice.LoginActivity">
+    tools:context="com.venkonenterprise.carbasics.Account.LoginActivity">
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -20,7 +20,7 @@
             android:layout_height="@dimen/logo_w_h"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="30dp"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@drawable/logotipo" />
 
 
         <EditText
